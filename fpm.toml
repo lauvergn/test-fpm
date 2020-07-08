@@ -1,0 +1,14 @@
+name="dnS"
+version = "0.1.0"
+license = "LGPL"
+author = "DML"
+maintainer = "David.Lauvergnat@universite-paris-saclay.fr"
+copyright = "2020 DML"
+
+[library]
+source-dir="SRC"
+
+[[executable]]
+name="TEST_dnS.x"
+source-dir="app"
+main="TEST_dnS.f90"
